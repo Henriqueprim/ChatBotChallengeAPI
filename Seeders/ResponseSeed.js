@@ -5,23 +5,15 @@ const seedChatResponses = [
     },
     {
         title: 'greeting',
-        response: 'Hi, ${username}! I\'m here to help you with our loan services. How can I help you today?',
+        response: 'Hi! I\'m here to help you with our loan services. How can I help you today?',
     },
     {
         title: 'notfound',
-        response: 'Sorry, I can\'t help you with that. Here are some of the topics I can help:',
+        response: 'Sorry, I can\'t help you with that. At the moment I can only help you with loan topics. Try asking me about loans.',
     },
     {
-        title: 'apply',
-        response: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod',
-    },
-    {
-        title: 'conditions',
-        response: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod',
-    },
-    {
-        title: 'help',
-        response: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod',
+        title: 'loan',
+        response: 'We offer a variety of loans. Here are some topics that may help you:',
     },
     {
         title: 'goodbye',
