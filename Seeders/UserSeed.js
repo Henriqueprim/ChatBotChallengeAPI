@@ -1,12 +1,11 @@
-const seedUsers = [
+require('dotenv').config();
+
+
+const seedSystemUser = [
     {
-        username: 'notLoggedIn',
-        password: 'notLoggedIn',
-    },
-    {
-        username: 'system',
-        password: 'system',
+        username: process.env.SYS_USER,
+        password: process.env.SYS_PASSWORD,
     },
 ];
 
-module.exports = seedUsers;
+module.exports = seedSystemUser;
