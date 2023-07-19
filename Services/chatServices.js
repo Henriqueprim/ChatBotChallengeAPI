@@ -54,7 +54,9 @@ const listChats = async (username) => {
     try {
         const chats = await Message.aggregate([
             { $match: { username } },
-            { $group: { _id: '$chat_id' } },
+            { $group: { _id: '$chat_id',
+                updatedAt: { $max: "$updatedAt" }
+        } },
         ]);
         return chats;
     } catch (error) {
