@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const connect_DB = require('./Models/connection');
 const ErrorHandler = require('./Middlewares/ErrorHandler');
@@ -13,8 +14,10 @@ app.use(ErrorHandler);
 app.use('/', UserRoutes);
 app.use('/chat', ChatRoute);
 
+const PORT = process.env.PORT || 3001;
+
 connect_DB()
-    .then(() => app.listen(3001, () => console.log('listening at 3001')))
+    .then(() => app.listen(PORT, () => console.log(`Server is running on port ${PORT}`)))
     .catch((err) => console.log(err));
 
 
