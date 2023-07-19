@@ -12,6 +12,7 @@ connect_DB()
 const seedDB = async () => {
     await User.deleteMany({});
     await User.insertMany(seedUsers);
+    await ChatResponse.deleteMany({});
     await ChatResponse.insertMany(seedChatResponses);
     console.log('DB seeded');
 };
