@@ -1,4 +1,4 @@
-# Loan ChatBot API - Challenge
+# Loan ChatBot Challenge - API
 ## About
 
 This is the back-end part of a Full Stack application developed during a technical test for a Full Stack role in Lexart Labs. 
