@@ -1,7 +1,7 @@
 # Loan ChatBot API - Challenge
 ## About
 
-This is an API developed as part of a technical test for a Full Stack role in Lexart Labs. 
+This is the back-end part of a Full Stack application developed during a technical test for a Full Stack role in Lexart Labs. 
 
 The challenge was creating a chatbot with the following features:
 - Interpret some greeting terms and initiate a conversation with the user;
