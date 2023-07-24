@@ -6,7 +6,7 @@ This is the back-end part of a Full Stack application developed during a technic
 The challenge was creating a chatbot with the following features:
 - Interpret some greeting terms and initiate a conversation with the user;
 - Require a 'username' and a 'password' to continue the conversation;
-- Upon encoutering the term "loan" display three options in the conversation:
+- Upon encountering the term "loan" display three options in the conversation:
     - "Do you want to apply for a loan?"
     - "Loan conditions"
     - "Help"
@@ -15,7 +15,10 @@ The challenge was creating a chatbot with the following features:
 - Create a page to display the user conversations history ordering them by date and exporting in a CSV file.
 
 In the end I was asked to create this public repository and deploy the full project in a free hosting environment.
+
 The result final result you can visit [here](https://chat-bot-challenge-client-side.vercel.app).
+
+And [here](https://github.com/Henriqueprim/ChatBotChallengeClient) you can find the front-end repository.
 
 ---
 ## Technologies used
